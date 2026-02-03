@@ -27,13 +27,13 @@
 **Mac / Linux**
 
 ```bash
-curl -fsSL https://api.51sux.com/install-mcp.sh | bash -s -- YOUR_API_KEY
+curl -fsSL https://ts-api.fyshark.com/install-mcp.sh | bash -s -- YOUR_API_KEY
 ```
 
 **Windows (PowerShell)**
 
 ```powershell
-irm https://api.51sux.com/install-mcp.ps1 -OutFile install-mcp.ps1; powershell -ExecutionPolicy Bypass -File .\install-mcp.ps1 -ApiKey "YOUR_API_KEY"
+irm https://ts-api.fyshark.com/install-mcp.ps1 -OutFile install-mcp.ps1; powershell -ExecutionPolicy Bypass -File .\install-mcp.ps1 -ApiKey "YOUR_API_KEY"
 ```
 
 > 将 `YOUR_API_KEY` 替换为你的实际 API Key
